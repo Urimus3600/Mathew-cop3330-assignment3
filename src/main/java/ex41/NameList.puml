@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class NameList{
++nameNum: private int
++names: private LinkedList<String>
++NameList(): NameList
++getnameNum(): int
++setNameNum(int nameNum): public void
++getNameAtIndex(int i): public String
++addNames(String name): public void
++swap(int first, int second): public void
++sortAlpha(): public void
++ fDisplayNames(Formatter output): public void
+
+}
+
+@enduml
