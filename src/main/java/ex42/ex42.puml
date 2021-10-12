@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class Employee{
++lastname: String
++firstname: String
++salary: String
++Employee(String stuck): Employee
+}
+
+@enduml
