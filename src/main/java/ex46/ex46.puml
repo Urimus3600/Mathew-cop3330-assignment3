@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class main{
++transfer: String
+}
+class Zoo{
++animals: LinkedList<Animal>
++class Animal
++Zoo(original String): Zoo
++createAnimal(name: String)
++displayZoo()
+}
+class Animal{
++name: String
++freq: int
++Animal(name: String): Animal
+}
+Zoo <|- main: transfer
+Zoo <-Animal
+Zoo--|> Output
+
+
+@enduml
