@@ -25,7 +25,6 @@ public class Zoo {
         //increase frequency and/or create node
         while(input.hasNext()){
             String name = input.next();
-            System.out.println(name);
             boolean add= true;
             for(int i=0; i < animals.size(); i++){
 
@@ -53,7 +52,7 @@ public class Zoo {
                     n=i;
                 }
             }
-            System.out.printf("%20s", animals.get(n).name + ":");
+            System.out.printf("%-14s", animals.get(n).name + ":");
             for(int i=0; i<animals.get(n).freq; i++) System.out.print("*");
             System.out.println();
             animals.get(n).freq = 0;
