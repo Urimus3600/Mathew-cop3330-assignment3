@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class App{
++main(String [] args): int
++out(String file): void
+}
+App <-- exercise45_input.txt: Error String
+App <- SystemIn: Output File Name
+Output.txt <|-- App: Changed String
+@enduml
