@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Austin Mathew
+ */
+
 package ex45;
 
 import java.io.FileNotFoundException;
